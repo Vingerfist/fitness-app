@@ -1,6 +1,7 @@
+import Card from "@/components/ui/Card";
 export default function TodayWorkout() {
     return (
-      <section className="mt-10 rounded-3xl bg-white p-8 shadow-sm">
+      <Card>
         <div className="flex items-center justify-between">
           <h2 className="text-3xl font-black">
             Today's Workout
@@ -36,6 +37,6 @@ export default function TodayWorkout() {
           </div>
   
         </div>
-      </section>
+        </Card>
     );
   }

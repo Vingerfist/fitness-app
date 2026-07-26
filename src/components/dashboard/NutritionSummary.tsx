@@ -1,6 +1,7 @@
-export default function NutritionSummary() {
+import Card from "@/components/ui/Card";
+ export default function NutritionSummary() {
     return (
-      <section className="mt-10 rounded-3xl bg-white p-8 shadow-sm">
+      <card>
         <h2 className="text-3xl font-black">
           Nutrition Summary
         </h2>
@@ -22,6 +23,6 @@ export default function NutritionSummary() {
           </div>
   
         </div>
-      </section>
+      </card>
     );
   }

@@ -1,4 +1,5 @@
-export default function RecentActivity() {
+import Card from "@/components/ui/Card";
+ export default function RecentActivity() {
     const activities = [
       "Completed Push Workout",
       "Logged Breakfast",
@@ -6,7 +7,7 @@ export default function RecentActivity() {
     ];
   
     return (
-      <section className="mt-10 rounded-3xl bg-white p-8 shadow-sm">
+      <card>
         <h2 className="text-3xl font-black">
           Recent Activity
         </h2>
@@ -21,6 +22,6 @@ export default function RecentActivity() {
             </div>
           ))}
         </div>
-      </section>
+      </card>
     );
   }
