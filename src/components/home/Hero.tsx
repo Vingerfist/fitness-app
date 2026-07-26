@@ -3,18 +3,19 @@ export default function Hero() {
     <section className="flex min-h-screen pt-20 flex-col items-center justify-center bg-gray-950 px-6 text-center text-white">
 
       <span className="rounded-full border border-blue-500 px-4 py-1 text-sm text-blue-400">
-        🚀 AI Powered Fitness
+         PERSONAL AI FITNESS
       </span>
 
       <h1 className="mt-8 max-w-4xl text-6xl font-extrabold leading-tight">
-        Train Smarter.
+        YOUR BODY.
         <br />
-        Transform Faster.
+        YOUR SYSTEM.
+        <br />
+        YOUR EVOLUTION.
       </h1>
 
       <p className="mt-6 max-w-2xl text-lg text-gray-400">
-        Get personalized workout routines and easy diet plans
-        based on your goals, body type and experience.
+      Personalized workouts, nutrition and progress tracking powered by AI — built around your body, your goals and your lifestyle.
       </p>
 
       <div className="mt-10 flex gap-4">
