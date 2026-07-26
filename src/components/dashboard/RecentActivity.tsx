@@ -7,7 +7,7 @@ import Card from "@/components/ui/Card";
     ];
   
     return (
-      <card>
+      <Card>
         <h2 className="text-3xl font-black">
           Recent Activity
         </h2>
@@ -22,6 +22,6 @@ import Card from "@/components/ui/Card";
             </div>
           ))}
         </div>
-      </card>
+      </Card>
     );
   }
