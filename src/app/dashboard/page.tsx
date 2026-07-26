@@ -1,5 +1,8 @@
 import DashboardCard from "@/components/dashboard/DashboardCard";
 import QuickAction from "@/components/dashboard/QuickAction";
+import TodayWorkout from "@/components/dashboard/TodayWorkout";
+import NutritionSummary from "@/components/dashboard/NutritionSummary";
+import RecentActivity from "@/components/dashboard/RecentActivity";
 
 export default function DashboardPage() {
   return (
@@ -54,6 +57,16 @@ export default function DashboardPage() {
           <QuickAction title="Add Meal" />
 
           <QuickAction title="Update Weight" />
+
+          </div>
+          
+          </section>
+
+          <TodayWorkout />
+
+          <NutritionSummary />
+
+          <RecentActivity />
 
         </div>
 
