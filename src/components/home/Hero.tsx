@@ -1,4 +1,5 @@
-export default function Hero() {
+import Link from "next/link";
+ export default function Hero() {
   return (
     <section className="flex min-h-screen pt-20 flex-col items-center justify-center bg-gray-950 px-6 text-center text-white">
 
@@ -19,15 +20,22 @@ export default function Hero() {
       </p>
 
       <div className="mt-10 flex gap-4">
-        <button className="rounded-xl bg-blue-600 px-8 py-4 font-semibold transition hover:bg-blue-700">
-          Generate My Plan
-        </button>
 
-        <button className="rounded-xl border border-gray-600 px-8 py-4 transition hover:border-white">
-          Learn More
-        </button>
-      </div>
+  <Link
+    href="/dashboard"
+    className="rounded-xl bg-blue-600 px-8 py-4 font-semibold transition hover:bg-blue-700"
+  >
+    Generate My Plan
+  </Link>
 
+  <Link
+    href="#features"
+    className="rounded-xl border border-gray-600 px-8 py-4 transition hover:border-white"
+  >
+    Learn More
+  </Link>
+
+</div>
       <p className="mt-8 text-sm text-gray-500">
         ⭐⭐⭐⭐⭐ Trusted by fitness enthusiasts
       </p>

@@ -1,4 +1,5 @@
-import DashboardCard from "@/components/dashboard/DashboardCard";
+import Link from "next/link";
+ import DashboardCard from "@/components/dashboard/DashboardCard";
 import QuickAction from "@/components/dashboard/QuickAction";
 import TodayWorkout from "@/components/dashboard/TodayWorkout";
 import NutritionSummary from "@/components/dashboard/NutritionSummary";
@@ -93,10 +94,20 @@ export default function DashboardPage() {
             </h2>
 
             <div className="mt-6 flex flex-col gap-4">
-              <QuickAction title="Log Workout" />
-              <QuickAction title="Add Meal" />
-              <QuickAction title="Update Weight" />
-            </div>
+
+  <Link href="/workouts">
+    <QuickAction title="Log Workout" />
+  </Link>
+
+  <Link href="/nutrition">
+    <QuickAction title="Add Meal" />
+  </Link>
+
+  <Link href="/progress">
+    <QuickAction title="Update Weight" />
+  </Link>
+
+</div>
           </Card>
         </div>
       </section>
